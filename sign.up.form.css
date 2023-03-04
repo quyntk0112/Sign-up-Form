@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	background: rgb(245, 234, 247);;
+}
+.header{
+	width: 450px;
+	height: 50px;
+    color: #781fe6;
+	justify-content: center;
+    font-size: 3em;
+	display: flex;
+    padding-top: 10px;
+	font-weight: bold;
+	margin-bottom: 25px
+}
+.main{
+	width: 450px;
+	height: 550px;
+	background: rgb(252, 250, 250);
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #969595;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #151414;
+	justify-content: center;
+    font-size: 2.3em;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+}
+input{
+	width: 80%;
+	height: 20px;
+	background: #faf9f9;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border-style: solid ;
+	border-radius: 1px;
+}
+a {
+    text-align: right;
+    justify-content: right;
+	display: block;
+}
+p {
+    text-align: center;
+}
+button{
+	width: 40%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #1224ed;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	border: none;
+	border-radius: 4px;
+}
+.other{
+	width: 80%;
+	height: 50px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #060606;
+	background: #fefeff;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	border-style: solid;
+	border-radius: 1px;
+}
